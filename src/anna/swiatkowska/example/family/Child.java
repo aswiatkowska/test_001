@@ -4,6 +4,11 @@ public class Child extends Person {
 
     public Child(String name, String sex, int age) {
         super(name, sex, age);
-        int a;
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
 }
