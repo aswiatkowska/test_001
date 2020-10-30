@@ -17,4 +17,8 @@ public class Mom extends Person {
     public List<Child> getChildren() {
         return children;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + "Children: " + children.size(); }
 }
